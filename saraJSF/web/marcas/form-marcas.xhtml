@@ -17,8 +17,8 @@
                     <h:panelGrid columns="1">
                     <p:inputText placeholder="#{str.marcaNamePrompt}" value="#{marcaBean.marca.nombre}"></p:inputText>
                     
-                       <p:inputText placeholder="#{str.estadoNamePrompt}" value="#{marcaBean.marca.estado}"></p:inputText>
-                           <p:inputText placeholder="#{str.prestigioNamePrompt}" value="#{marcaBean.marca.prestigio}"></p:inputText>
+                       <p:inputText placeholder="#{str.estadoPrompt}" value="#{marcaBean.marca.estado}"></p:inputText>
+                           <p:inputText placeholder="#{str.prestigioPrompt}" value="#{marcaBean.marca.prestigio}"></p:inputText>
                     </h:panelGrid>
                     <p:commandButton value="#{str.buttonSave}" action="#{marcaBean.guardar()}"></p:commandButton>
                     <p:commandButton value="#{str.buttonDelete}" action="#{marcaBean.eliminar()}"></p:commandButton>
